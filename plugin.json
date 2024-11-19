@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "Windy",
+    "description": "🧐"
+  },
+  "data": [
+    {
+      "name": "My Fanqie (Web)",
+      "author": "Windy",
+      "path": "https://raw.githubusercontent.com/Phong-Dam/vbook-extions/main/Windy_Web/plugin.zip",
+      "version": 1,
+      "source": "https://fanqienovel.com/",
+      "icon": "https://raw.githubusercontent.com/Phong-Dam/vbook-extions/main/Windy_Web/icon.png",
+      "description": "Đọc truyện qua app Fanqie",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
+  ]
+}
