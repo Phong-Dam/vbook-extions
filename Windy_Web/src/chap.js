@@ -6,6 +6,12 @@ function execute(url) {
 
     url = "https://fanqienovel.com/reader/" + chapid
     let response = fetch(url);
+	const cookie = "novel_web_id=7357767624615331362;";
+    let response_chapter_info = fetch(url, {
+        headers: {
+            'Cookie': cookie
+        }
+    })
     if (response.ok) {
         let doc = response.html();
         let htm = doc.select(".muye-reader-content.noselect").html();
