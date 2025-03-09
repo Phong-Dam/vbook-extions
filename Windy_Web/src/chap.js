@@ -6,7 +6,7 @@ function execute(url) {
 
     url = "https://fanqienovel.com/reader/" + chapid
     let response = fetch(url);
-	const cookie = "novel_web_id=7357767624615331362;";
+	const cookie = "novel_web_id=7768277561285709473;";
     let response_chapter_info = fetch(url, {
         headers: {
             'Cookie': cookie
